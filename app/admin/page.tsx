@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import QRCode from "qrcode";
 import * as XLSX from "xlsx";
 
-const API = "http://127.0.0.1:8000";
+const API = "https://rgp-polytechnic-backend.onrender.com";
 
 async function apiFetch(input: RequestInfo | URL, init: RequestInit = {}) {
   const token = typeof window !== "undefined" ? localStorage.getItem("rgp_admin_token") : null;

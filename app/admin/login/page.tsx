@@ -2,7 +2,7 @@
 
 import { FormEvent, useState } from "react";
 
-const API = "http://127.0.0.1:8000";
+const API = "https://rgp-polytechnic-backend.onrender.com";
 
 export default function AdminLoginPage() {
   const [username, setUsername] = useState("");
